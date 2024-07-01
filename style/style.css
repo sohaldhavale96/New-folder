@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+/* Fonts */
+/* 
+font-family: "Arsenal SC", sans-serif;
+
+font-family: "Bodoni Moda SC", serif;
+*/
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: poppins,sans-serif;
+   -webkit-user-drag: none;
+}
+html,
+body{
+   height:100%;
+   width:100%;
+}
+*::selection{
+    user-select: none;
+}
+/* 
+#150050
+#3F0071
+#FB2576
+*/
+body{
+    background-color:#040D12;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+a{
+    text-decoration: none;
+}
+#main{
+    position: relative;
+}
+#page-1{
+    height: 100vh;
+    width: 100%;
+}
+nav{
+    position: fixed;
+    height: 12vh;
+    width: 100%;
+    padding: 20px;
+    z-index: 9;
+}
+nav #left-nav{
+    width: 30%;
+    object-fit: cover;
+}
+nav #left-nav img{
+    height: 100%;
+    width: 40%;
+    object-fit: cover;
+}
+nav #right-nav{
+    height: 100%;
+    width: 60%;
+    gap: 5vw;
+    font-size: 1.1vw;
+    font-weight: 300;
+    justify-content: end;
+    padding-right: 10px;
+}
+nav #right-nav a{
+    color: #ffffff97;
+}
+#landing-content{
+    height: 100%;
+    width: 100%;
+    color: #ffffff;
+    position: relative;
+}
+#landing-content h1{
+    font-family: "Bodoni Moda SC", serif;
+    font-size: 7vw;
+    font-weight: 700;
+}
+#landing-content p{
+    font-family: "Arsenal SC", sans-serif;
+    font-size: 1.2vw;
+    margin: 6px 0;
+}
+#landing-content #para-1{
+    font-weight: 800;
+}
+#landing-content #para-3{
+    width: 60%;
+    text-align: center;
+    line-height: 1.6vw;
+    font-weight: 800;
+}
+#landing-content .illustrate{
+    position: absolute;
+    opacity: 0.6;
+}
+#landing-content #il-1{
+    top: 10%;
+    left: 23%;
+    rotate: 110deg;
+    width: 150px;
+    z-index: -1;
+}
+#landing-content #il-2{
+    top: 70%;
+    left: 0%;
+    width: 250px;
+    opacity: 0.4;
+}
+#landing-content #il-3{
+    top: 10%;
+    left: 60%;
+    width: 10%;
+}
+#landing-content #il-4{
+    top: 80%;
+    right: 10%;
+    width: 20%;
+    rotate: 127deg;
+    opacity: 0.2;
+}
+#landing-content #il-5{
+    top: 70%;
+    right: 10%;
+    width: 0;
+}
+#page-2{
+    min-height: 100vh;
+    width: 100%;
+    padding: 5vw;
+}
+#sec1-page-2{
+    height: 100vh;
+    width: 100%;
+    gap: 20px;
+}
+.left-img-il{
+    height: 100%;
+    object-fit: cover;
+}
+.left-img-il img{
+    width: 90%;
+}
+
+
+
+
+/* Responsive design */
+@media (max-width:600px) {
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav #left-nav{
+        width: 0% !important;
+        display: none;
+    }
+    nav #left-nav img{
+        display: none;
+    }
+    nav #right-nav{
+        width: 100%;
+    }
+    nav #right-nav a{
+        color: #ffffff97;
+        font-size: 2vw;
+    }
+    #landing-content h1{
+        font-family: "Bodoni Moda SC", serif;
+        font-size: 12vw;
+        font-weight: 700;
+    }
+    #landing-content p{
+        font-family: "Arsenal SC", sans-serif;
+        font-size: 3vw;
+        margin: 6px 0;
+    }
+    #landing-content #para-1{
+        width: 80%;
+        text-align: center;
+    }
+    #landing-content #para-3{
+        line-height: 3vw;
+    }
+    #landing-content #il-1{
+        top: 20%;
+        left: 13%;
+        rotate: 110deg;
+        width: 150px;
+        z-index: -1;
+    }
+    #landing-content #il-2{
+        width: 250px;
+        opacity: 0.4;
+    }
+    #landing-content #il-3{
+        top: 10%;
+        left: 60%;
+        width: 30%;
+    }
+    #landing-content #il-4{
+        top: 80%;
+        right: 10%;
+        width: 30%;
+        rotate: 127deg;
+        opacity: 0.2;
+    }
+    #landing-content #il-5{
+        display: none;
+    }
+}
