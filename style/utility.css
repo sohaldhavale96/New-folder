@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
 .d-flex{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+p{
+    font-family: "Arsenal SC", sans-serif;
+}
+h1{
+    font-family: "Bodoni Moda SC", serif;
 }
 .d-flex-jsb{
     display: flex;
@@ -21,14 +29,12 @@
 }
 .card h1{
     font-size: 4vw;
-    font-family: "Bodoni Moda SC", serif;
     margin-bottom: 20px;
     z-index: 2;
     color: #fff;
     text-align: center;
 }
 .card p{
-    font-family: "Arsenal SC", sans-serif;
     width: 80%;
     font-size: 1.6vw;
     font-weight: 500;
@@ -63,4 +69,28 @@
     height: 1px;
     width: 100%;
     background-color: #ffffff36;
+}
+#page-3 h1{
+    font-size: 4vw;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#page-3 .project{
+    height: 70vh;
+    width: 100%;
+    background-color: red;
+    padding: 1vw;
+    gap: 10px;
+}
+#page-3 .project .projectVideo{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(0, 17, 255);
+    padding: 1vw;
+}
+#page-3 .project .projectDetails{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(26, 255, 0);
+    padding: 1vw;
 }
