@@ -58,3 +58,9 @@
 #social-media img{
     width: 150%;
 }
+.line{
+    margin: 5px 0;
+    height: 1px;
+    width: 100%;
+    background-color: #fff;
+}
