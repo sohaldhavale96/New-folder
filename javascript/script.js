@@ -1,3 +1,12 @@
+// Wait for the entire page to load
+window.addEventListener('load', function() {
+    // Hide the preloader
+    document.getElementById('preloader').style.display = 'none';
+    // Show the content
+    document.getElementById('content').style.display = 'block';
+});
+
+
 const tl = gsap.timeline()
 const nav_elems_top = document.querySelectorAll('.nav-elem-anim')
 const background_illustrations = document.querySelectorAll('.illustrate')
