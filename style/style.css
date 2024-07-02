@@ -19,6 +19,7 @@ body{
    width:100%;
 }
 *::selection{
+    -webkit-user-select: none;
     user-select: none;
 }
 /* 
@@ -146,7 +147,10 @@ nav #right-nav a{
 .left-img-il img{
     width: 90%;
 }
-
+#page-3{
+    height: 100vh;
+    width: 100%;
+}
 
 
 
